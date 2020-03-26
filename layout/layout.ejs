@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- page.title %>
+    
+    <meta charset="utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <%- css('css/main') %>
+
+    <%- css('/lib/highlight/style/zenburn') %>
+</head>
+<body>
+    <%- partial('_partial/title') %> 
+    
+    <%- partial('_partial/nav') %> 
+    
+    <div class="main">
+        <%- body %>
+    </div>
+    
+    <%- partial('_partial/footer') %>
+    <%- js('/lib/highlight/highlight.pack.js') %>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

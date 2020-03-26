@@ -1,0 +1,25 @@
+<div id="post-list">
+    <% site.posts.forEach(post => { %>
+        <div class="index-post">
+
+            <div class="index-post-date">
+                <%- date(page.date, "YYYY-MM-DD") %>
+            </div>
+
+            <div class="index-post-title">
+                <a id="index_post_title" href="/<%- post.path %>">
+                    <%- post.title %>
+                </a>
+            </div>
+
+            <div class="index-post-excerpt">
+                <%- post.more.replace(/<\/?.+?\/?>/g, "").substring(0, 100) %>
+                ...
+            </div>
+
+            <a class="read-more" href="/<%- post.path %>">
+                Read more
+            </a>
+        </div>
+    <% }); %> 
+</div>

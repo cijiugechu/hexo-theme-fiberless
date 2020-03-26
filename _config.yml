@@ -1,0 +1,41 @@
+#---------------------------
+# fiberless
+# 一款简单轻量的HEXO主题
+# Author: cijiugechu
+# 
+#---------------------------
+
+# page title  
+title: fiberless
+
+# navbar menus
+nav:
+  home: /
+  categories: /categories
+  about: /about
+
+language:
+  - en
+  - zh-Hans
+
+# view more: https://github.com/highlightjs/highlight.js
+# highlight-theme: zenburn
+
+# copyright info of posts
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# footer settings
+since: 2019
+
+# page about you
+about:
+  name:
+  self_intro:
+  github:
+  twitter: 
+  email:
+  telegram:
+
