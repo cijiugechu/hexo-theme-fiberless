@@ -1,0 +1,36 @@
+html {
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.nav-item {
+    position: relative;
+    margin: 1em;
+}
+
+.nav-item::after {
+    content: "";
+    background-color: red;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all 0.3s;
+}
+
+.nav-item:hover::after {
+    left: 0%;
+    width: 100%;
+}
+
