@@ -19,7 +19,8 @@ language:
   - zh-Hans
 
 # view more: https://github.com/highlightjs/highlight.js
-# highlight-theme: zenburn
+# available themes: zenburn | rainbow | light | atom
+highlight_theme: zenburn
 
 # copyright info of posts
 post_copyright:
