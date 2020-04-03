@@ -8,10 +8,17 @@
 # page title  
 title: fiberless
 
+# website address
+site: 
+
+# blog author
+author: cijiugechu
+
 # navbar menus
 nav:
   home: /
   categories: /categories
+  tags: /tags
   about: /about
 
 language:
@@ -31,10 +38,14 @@ post_copyright:
 # footer settings
 since: 2019
 
+# picture resource( stored in /source/img folder )
+favicon: 
+profilepic: /img/profilepic.png
+
 # page about you
 about:
   name:
-  self_intro:
+  Bio: 歲月은흘러가도，山川은안다。
   github:
   twitter: 
   email:

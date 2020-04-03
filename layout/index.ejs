@@ -2,24 +2,42 @@
     <% site.posts.forEach(post => { %>
         <div class="index-post">
 
-            <div class="index-post-date">
-                <%- date(page.date, "YYYY-MM-DD") %>
-            </div>
-
             <div class="index-post-title">
                 <a id="index_post_title" href="/<%- post.path %>">
-                    <%- post.title %>
+                    <h1 class="index-post-title-text">
+                        <%- post.title %>
+                    </h1>
                 </a>
             </div>
 
-            <div class="index-post-excerpt">
-                <%- post.more.replace(/<\/?.+?\/?>/g, "").substring(0, 100) %>
-                ...
+            <div class="index-post-meta-info">
+                <span class="index-post-date">
+                    📅<%- date(post.date, "YYYY-MM-DD") %>
+                </span>
+
+                <span class="index-post-tags">
+                    <% post.tags.forEach(tag =>{ %>
+                        <a class="index-post-tag" href="/tags/<%- tag.name %>">
+                            🏷️<%- tag.name %> 
+                        </a>
+                    <% }) %>
+                </span>
             </div>
 
-            <a class="read-more" href="/<%- post.path %>">
-                Read more
+                <div class="index-post-excerpt">
+                    <%- post.more.replace(/<\/?.+?\/?>/g, "").substring(0, 100) %>
+                    ...
+                </div>
+            
+
+            <a href="/<%- post.path %>">
+                <div class="read-more-button">
+                    <span>
+                        Read more
+                    </span>
+                </div>
             </a>
+                
         </div>
     <% }); %> 
 </div>

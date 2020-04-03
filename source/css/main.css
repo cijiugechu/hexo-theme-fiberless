@@ -1,21 +1,55 @@
 html {
-    background-color: #f0f0f0;
+    background-color: white;
 }
 
 a {
     text-decoration: none;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.profile {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile>img {
+    border-radius: 50%;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+.profile>p {
+    margin-top: 0;
+    padding-left: 1.6rem;
+    line-height: 1.6;
+}
+
+.profile>p>a {
+    color: #4cb4e7;
+}
+
 .navbar {
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     font-weight: bold;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav-item {
     position: relative;
     margin: 1em;
+}
+
+.nav-item-link {
+    color: #4cb4e7;
 }
 
 .nav-item::after {
@@ -34,3 +68,108 @@ a {
     width: 100%;
 }
 
+#site_title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back-top-btn {
+    position: fixed;
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    z-index: 99;
+}
+
+/* index page style */
+
+/** post section style **/
+
+#post-list {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.index-post {
+    margin-bottom: 5rem;
+    border-bottom: 4px dashed #4cb4e7;
+}
+
+.index-post-title-text {
+    color: black;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.index-post-title-text:hover {
+    color: #4cb4e7;
+}
+
+.index-post-meta-info {
+    margin-bottom: 1rem;
+}
+
+.index-post-tags {
+    margin-left: 1rem;
+}
+
+.index-post-tag {
+    color: #4cb4e7;
+}
+
+.index-post-excerpt {
+    line-height: 2;
+}
+
+.read-more-button {
+    width: 6rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #4cb4e7;
+    transition: background-color 0.2s linear;
+}
+
+.read-more-button:hover {
+    background-color: #FF7F50;
+}
+
+/** footer section style **/
+
+.footer-layout {
+    display: flex;
+    height: 12rem;
+}
+
+.footer-text {
+    margin: auto;
+}
+
+.hexo-site,.theme-site {
+    color: #4cb4e7;
+}
+
+@media screen and ( min-width:680px ){
+    #post-list {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .navbar {
+        margin-left: 30%;
+        margin-right: 30%;
+        display: flex;
+        font-weight: bold;
+        justify-content: space-between;
+    }
+    .profile {
+        margin-left: 30%;
+        margin-right: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+}
