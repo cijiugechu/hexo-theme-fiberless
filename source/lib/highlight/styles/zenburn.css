@@ -12,6 +12,7 @@ based on dark.css by Ivan Sagalaev
   background: #3f3f3f;
   color: #dcdcdc;
   font-family: Consolas, Courier, monospace;
+  border-radius: 6px;
 }
 
 .hljs-keyword,

@@ -5,6 +5,7 @@
 	background: #474949;
 	color: #d1d9e1;
 	font-family: Consolas, Courier, monospace;
+	border-radius: 6px;
 }
 
 .hljs-comment,.hljs-quote {
