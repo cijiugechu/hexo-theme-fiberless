@@ -1,5 +1,5 @@
 <div id="post-list">
-    <% site.posts.forEach(post => { %>
+    <% page.posts.forEach(post => { %>
         <div class="index-post">
 
             <div class="index-post-title">
@@ -40,4 +40,7 @@
                 
         </div>
     <% }); %> 
+</div>
+<div id="paginator">
+    <%- paginator() %>
 </div>

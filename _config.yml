@@ -39,7 +39,7 @@ post_copyright:
 since: 2019
 
 # picture resource( stored in /source/img folder )
-favicon: 
+favicon: /img/favicon.ico
 profilepic: /img/profilepic.png
 
 # page about you

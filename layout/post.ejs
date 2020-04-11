@@ -12,7 +12,19 @@
     <div id="article-content">
         <%- page.content %>
     </div>
+
+    <div id="article-toc">
+        <%- toc(page.content,{
+            class: toc,
+            list_number: false,
+            max_depth: 6,
+            min_depth: 2
+        }) %>
+    </div>
 </article>
+
+
+
 
 
  
