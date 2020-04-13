@@ -1,0 +1,13 @@
+    <% if(page.type=='categories'){ %>
+        <div id="categories">
+        <%- partial('categories') %>
+    </div>
+    <% }else if(page.type=='tags'){ %>
+        <div id="tag-cloud">
+        <%- partial('tags') %>
+    </div>
+    <% }else {  %>
+        <div id="about">
+            <%- page.content %> 
+        </div> 
+<% } %> 
