@@ -8,12 +8,23 @@ A light-weight and simple theme for Hexo.
 
 2. then type:
    
-```
+```bash
 cd themes
 ```
 and:
 
-```
+```bash
 git clone https://github.com/cijiugechu/hexo-theme-fiberless fiberless
 ```
-3. Edit 
+3. Edit `_config.yml` file in the `Site` folder and change theme to `fiberless`
+
+## Customization
+
+#### Code Highlight
+
+Edit `_config.yml` file in the `Site` folder ,
+change `highlight -> enable` to `false`
+
+#### Bio
+
+Add your bio to `_config.yml -> about -> Bio`
