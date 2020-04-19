@@ -1,5 +1,7 @@
 # hexo-theme-fiberless
 
+![sample](source/img/展示.PNG)
+
 轻量,简单的Hexo主题。
 
 ## 安装

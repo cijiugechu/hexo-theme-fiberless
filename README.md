@@ -1,5 +1,7 @@
 # hexo-theme-fiberless
 
+![sample](source/img/展示.PNG)
+
 A light-weight and simple theme for Hexo.
 
 ## Installation
