@@ -4,6 +4,8 @@
 
 轻量,简单的Hexo主题。
 
+[English](https://github.com/cijiugechu/hexo-theme-fiberless/blob/master/README.md) | 中文
+
 ## 安装
 
 1. 将目录切换到Hexo根目录。

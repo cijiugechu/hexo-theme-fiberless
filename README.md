@@ -4,6 +4,8 @@
 
 A light-weight and simple theme for Hexo.
 
+English | [中文](https://github.com/cijiugechu/hexo-theme-fiberless/blob/master/README-zh.md)
+
 ## Installation
 
 1. change your dir to hexo root directory.
